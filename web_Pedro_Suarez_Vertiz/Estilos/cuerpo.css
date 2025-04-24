@@ -1,0 +1,23 @@
+*{
+    box-sizing: content-box;
+}
+header{
+    width:100%;
+    height: 4vw;
+    min-height: 120px;
+}
+main{
+    background-color: #c1a8a8 ;
+    color:rgb(3, 2, 2);
+    width:100%;
+    height:calc(100vh - 5vw);
+}
+html, body{
+    text-align:left;
+    padding:0;
+    margin:0;
+    border:0;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
