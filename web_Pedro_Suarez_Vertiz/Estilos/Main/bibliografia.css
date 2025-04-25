@@ -1,0 +1,40 @@
+#bibliografia{
+    width: 100%;
+    height: 50vw;   
+}
+.contener-biblig{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(221, 224, 182), #dadf94,#f1bcbc);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#2C4044;
+
+}
+
+.infor-biblig{
+    width: 15vw;
+    padding:0 2vw;
+    display: flex;
+    flex-direction: column;
+    width:60vw;
+    margin: 0 0;
+    display:flex;
+}
+
+.video{
+    width:30vw;
+    height: 200px;
+    background: #dae267;
+    box-shadow:0 0 10px 20px #61acbb;
+    opacity: 0.5;
+    margin-right: 2vw;
+}
+
+.infor-biblig p{
+    width: 40vw;
+}

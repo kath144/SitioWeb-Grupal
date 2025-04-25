@@ -1,0 +1,47 @@
+
+#disco{
+    padding-top: 3rem;
+}
+.contener-disco{
+    width:100%;
+    height: 100%;
+    background:linear-gradient(#f1bcbc,#ad9595,#423f3f);
+}
+
+.disco-titulo{
+    text-align: center;
+    font-size: 4vw;
+    margin:0 auto 2vw auto;
+}
+.disco-vinilo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100%;
+    
+}
+.disco-opcion{
+    width: 30%;
+    min-width: 200px;
+    height: auto;
+    text-align: center;
+}
+.disco-opcion img{
+    width: 100%;;
+    height: auto;
+    
+}
+.disco-vinilo h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 1rem 0;
+}
+.disco-opcion h3{
+    color:white;
+    text-shadow: 0 0 20px 20px #7a7171;
+}

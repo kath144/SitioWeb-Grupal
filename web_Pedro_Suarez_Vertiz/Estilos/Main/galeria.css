@@ -1,0 +1,33 @@
+#galeria{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(#423f3f,#8d825e,#d18a50);
+}
+.galeria-titulo{
+    text-align: center;
+    font-size:4vw;
+}
+
+.galeria-img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20vw;
+}
+
+
+.galeria-img img{
+    width: 37vw;
+    height: auto;
+    border-radius: 20px;
+}
+.galeria-imagen-2{
+    margin-left: 2rem;
+}
+.galeria-opcion-tres{
+    margin-top:2rem;
+}
+.galeria{
+    color: rgb(167, 134, 134);
+}
