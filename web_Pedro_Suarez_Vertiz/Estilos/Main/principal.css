@@ -7,17 +7,17 @@
 .img{
     width:75vw;
     height: 37vw;
-    background-color: rgba(165, 89, 235, 0.5);
+    background-color: rgba(137, 127, 92, 0.5);
     margin:0 auto;
-    box-shadow: 0 0 30px 40px rgb(188, 59, 214),
-   0 0 50px 70px rgb(159, 86, 226) ;
+    box-shadow: 0 0 30px 40px rgb(168, 136, 94),
+   0 0 50px 70px rgba(96, 79, 51, 0.742) ;
     border-radius: 20px; 
 }
 
 .titulo-principal{
     padding:0;
     margin:0;
-    font-family: 'Times New Roman', Times, Arial; 
+    font-family: Crimson Text; 
     font-size: 5vw;
     font-weight: 900;
     display:flex;
@@ -28,12 +28,12 @@
 
 }
 .pedro-titulo-principal{
-    color:antiquewhite;
+    color:rgb(168, 136, 94);
 }
 .suarez-titulo-principal{
     color: rgb(0, 0, 0,);
     margin:auto 2rem;
 }
 .vertiz-titulo-principal{
-    color: antiquewhite;
+    color: rgb(168, 136, 94);
 }

@@ -1,6 +1,8 @@
 
 #disco{
     padding-top: 3rem;
+    background-color: #000000; /* fondo beige claro */
+    color: #3C2F2F;            /* texto principal marrón oscuro */
 }
 .disco-titulo{
     text-align: center;
