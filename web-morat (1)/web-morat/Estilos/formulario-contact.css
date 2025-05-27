@@ -1,0 +1,90 @@
+#form-contact{
+    height: calc(70vh + 10vw);
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#143244,white,white,white,white,white,#143244);
+    padding: 0 5vw;
+}
+#form-contact > h2 {
+    width: 100%;
+    text-align: start;
+    font-size:3rem;
+    margin:3vw 0 0 0;
+    color:black;
+    text-shadow: 0 0 5px #143244, 0 0 7px #143244, 0 0 9px #143244, 0 0 12px #143244;
+}
+/* Contenedor del Formulario */
+.content-form {
+    width: 100%;
+    height: calc(50vh + 10vw);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:1vw;
+}
+
+/* Formulario */
+.formulario{
+    width: calc(30vh + 10vw);
+    height: calc(40vh + 10vw);
+    padding:3vw;
+    background-color: #245370;
+
+    border: 1px solid rgb(80, 68, 68);
+    border-radius: 25px;
+    
+    display:flex;
+    flex-direction: column;
+    align-content: start;
+
+    color:white;
+    box-shadow: 0 0 5px #143244, 0 0 7px #143244, 0 0 5px black;
+    
+}
+.entrada{
+    border:none;
+    width: 100%;
+    height: calc(20% + 3vw);    
+}
+.entrada > label {
+    width: 100%;
+    height: 100%;
+    font-size:calc(2rem + 2vw);
+}
+label > p {
+    font-weight: 900;
+    font-family: Times, serif;
+    font-size:calc(0.5rem + 1.5vw);
+    margin-bottom: -1.5vw;
+    padding-left: 0.5vw;
+}
+
+label > input {
+    width: 100%;
+    height: calc(3vh + 1vw);
+    border-radius: 10px;
+    padding:0.5vw;
+}
+.formulario > button {
+    margin: 0 auto;
+    width: calc(10vh + 10vw);
+    height: calc(2vh + 1vw);
+    border-radius: 10px;
+    border:none;
+    font-family: Times;
+    font-size: calc(0.5rem + 1vw);
+    font-weight: 500;
+    box-shadow: 1px 1px 5px 1px #000;
+    
+}
+/* En esta parte ira el video de la pagina con costado del formulario */
+.imagen-banda-form{
+    width: calc(100px + 40vw);
+    height: calc(25vh + 15vw);
+    background-color: rgb(124, 62, 62);
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px 1px #000000, 0 0 7px #000;
+}

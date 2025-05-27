@@ -1,0 +1,122 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw 5vw;
+}
+/* Primer contenedor de informacion */
+.infor-contacto{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(27vh + 5vw);
+}
+/* contenedor de informacion sobre la banda, resumen */
+.resumen{
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    color:white;
+    padding: 0 1.5vw;
+}
+.resumen > h3 {
+    font-size: calc(0.7rem + 1vw);
+    margin-bottom:1vw;
+}
+.resumen > p{
+    font-size: calc(0.5rem + 0.5vw);
+}
+.infor{
+    width: 20%;
+    height: 100%;
+    padding: 0 1.5vw;
+    color:#fff;
+}
+.infor > h3 {
+    font-size: calc(0.7rem + 1vw);
+    margin-bottom: 1vw;
+}
+ 
+.lista-pie > li{
+    margin-bottom:0.7vw;
+    font-size: calc(0.6rem + 0.5vw);
+}
+
+.infor-contact{
+    width: 20%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    padding:1.5%;
+    color:white;
+    padding:1vw;
+}
+
+/* Enlaces de busqueda */
+.enlaces-busqueda{
+    width: 100%;
+    height: calc(3vh + 0.5vw);    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.enlaces-busqueda > a{
+    text-decoration: none;
+    color:#fff;
+    margin: 0 2vw;
+}
+
+/* Enlaces a las plataformas sociales */
+.enlaces-sociales{
+    width: 100%;
+    height: calc(8vh + 1vw);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.enlace-social {
+    width: calc(25px + 1.5vw);
+    height: calc(25px + 1.5vw);
+    border-radius:50%;
+    margin: 0 2vw;
+
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.enlace-tiktok{
+    background-image: url('../Imagenes/icons/tiktok.svg');
+}
+.enlace-youtube{
+    background-image: url('../Imagenes/icons/youtube.svg');
+}
+.enlace-instagram{
+    background-image: url('../Imagenes/icons/instgram.svg');
+}
+.enlace-spotify{
+    background-image: url('../Imagenes/icons/spotity.svg');
+}
+/* Barra de separacion */
+.barra{
+    width: 95%;
+    background-color: white;
+    height: 0.5vw;
+    border-radius:15px;
+    margin-bottom:1vw;
+}
+footer > h4 {
+    color:#fff;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    padding-top:2vh;
+}
+
+

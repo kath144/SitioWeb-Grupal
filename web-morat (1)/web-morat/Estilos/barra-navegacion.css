@@ -1,0 +1,45 @@
+section > header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 4%;
+}
+/* Estilos de enlaces tanto para contenedor y enlace */
+.alinear-lista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+}
+.enlaces > li {
+  margin: 0 7px;
+}
+.enlace {
+  text-decoration: none;
+  color:#fff;
+  font-size:1rem;
+}
+
+/* Logo de la pagina web */
+.logo {
+  width: max(80px,8.5vw);
+  height: calc(45px + 1vw);
+  overflow: hidden;
+}
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Extra para modificar ubicacion  */
+.alinear-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.largo {
+  height: 100%;
+}

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+
+}
+html{
+  overflow-x: hidden;
+}
+#cuerpo-estruptura {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+header {
+  height: calc(65px + 1vw);
+  background-color: #0d202f;
+  width:99vw;
+  
+}
+main {
+  background-color: #143244;
+  width: 99
+}
+footer {
+  height: calc(50vh + 10vw);
+  width: 100%;
+  background-color: #143244;
+}
+.separacion{
+  height: 4vw;
+  width: 100%;
+  background-color: #143244;
+}

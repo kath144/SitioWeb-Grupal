@@ -1,0 +1,64 @@
+/* fondo de inicio */
+#inicio {
+  width: 100%;
+  min-height: 55vw;
+  padding: 0 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  background-image: url("../Imagenes/grupo-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+}
+
+/* informacion de inicio */
+.content-dato-inicio {
+  width: 40%;
+  height: 60%;
+  margin-bottom: calc(5vh + 5vw) ;
+  background: transparent;
+  color: #fff;
+}
+.content-dato-inicio > h2 {
+  font-size: calc(0.1rem + 1.5vw);
+}
+.content-dato-inicio > .titulo-principal {
+  font-size: calc(3.5rem + 4vw);
+  font-family: "Times";
+  margin-top: 20px;
+}
+/* Boton al album */
+.boton-album {
+  width: 22vw;
+  height: calc(15px + 1vw);
+}
+.boton-album > a {
+  color: #000;
+  font-size: calc(0.1rem + 1vw);
+}
+/* enlaces a redes sociales */
+
+.enlace > img {
+  width: 3.2vw;
+  height: 3.2vw;
+  border-radius: 50%;
+}
+.content-dato-inicio > .redes-sociales {
+  justify-content: start;
+  margin-top: 20px;
+}
+
+.redes-sociales > li {
+  margin: 0 14px;
+}
+
+/* reponsive fondo */
+@media (max-width: 480px) {
+  #inicio {
+    min-height: 70vh;
+  }
+}
